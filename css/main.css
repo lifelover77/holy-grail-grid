@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #369;
+    grid-column: span 3;
+    color: white;
+    margin: 3px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(153, 255, 0);
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.esquerda {
+    background-color: #f90;
+    padding: 20px;
+    text-align: center;
+    height: 1000px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.direita {
+    padding: 20px;
+    background-color: #936;
+    height: 1000px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+footer {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    background-color: #369;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 3px;
+    border-radius: 20px;
+}
